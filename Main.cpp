@@ -56,6 +56,8 @@ static string getQuery() {
 int main() {
 	try {
 		string query = getQuery();
+
+
 	}
 	catch (exception except) {
 		cout << except.what() << endl;
